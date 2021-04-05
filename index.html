@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giuseppe Musella – Web & UX / UI Designer | Front-End Developer Student</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <!-- INIZIO MENU DI NAVIGAZIONE -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky nav-sticky">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/icon.jpg" class="l-dark" height="40" alt="">
+        <img src="images/icon.jpg" class="l-light" height="40" alt="">
+        g.m.
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu fea icon-md"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+        <ul id="navbar-navlist" class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#chisono">Chi sono</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cosafaccio">Cosa Faccio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobby">Hobby</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
+        </ul>
+        <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/gmusella-uxui/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.behance.net/giuseppemusella1" target="_blank"><i class="fab fa-behance"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- FINE MENU DI NAVIGAZIONE -->
+  <!-- INIZIO SEZIONE HOME -->
+  <section class="bg-home d-table w-100" style="background-image:url('images/main-background.jpg')" id="home">
+    <div class="bg-overlay" id="particles-js"></div>
+    <div class="container position-relative" style="z-index: 1;">
+      <div class="row mt-5 mt-sm-0 justify-content-center">
+        <div class="col-lg-12 text-center">
+          <div class="title-heading">
+            <img src="images/main-avatar.jpg" class="img-fluid rounded-circle" alt="">
+            <h3 class="heading text-light title-dark mt-3">Sono un <span class="element text-primary"></span><span id="typed" class="text-primary"></span></h3>
+            <p class="para-desc mx-auto text-white-50">Ciao! Sono Giuseppe Musella, web e graphic designer.<br>Mi piace realizzare progetti minimal, chiari ed efficaci.</p>
+            <div class="mt-4">
+              <a href="docs/curriculum-vitae-musella.pdf" target="_blank" class="btn btn-primary rounded">Scarica il mio CV <i class="fas fa-download"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#chisono" data-scroll-nav="1" class="mouse-icon mouse-icon-white rounded-pill bg-transparent mouse-down">
+      <span class="wheel position-relative d-block mover"></span></a>
+      <canvas class="particles-js-canvas-el" width="1094" height="913" style="width: 100%; height: 100%; position: absolute; top: 0px;"></canvas>
+    </section>
+    <!-- FINE SEZIONE HOME -->
+    <!-- INIZIO SEZIONE CHI SONO -->
+    <section class="section bg-light pt-100 pb-100" id="chisono">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title">
+              <h4 class="title title-line text-uppercase">Chi sono</h4>
+              <p class="text-muted mx-auto para-desc mb-0"><em>"Una persona curiosa e dal mindset creativo,  mi stimola studiare e progettare
+                soluzioni di design semplici ed efficaci con focus sull’utente finale."</em></p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-md-5 mar-b">
+                <div class="about-hero">
+                  <img src="images/chisono-giuseppemusella.jpg" class="img-fluid mx-auto d-block about-tween position-relative rounded" alt="">
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-7">
+                <div class="section-title mb-0 ms-lg-5 ms-md-3">
+                  <h6 class="designation mb-3">Passionate <span class="text-primary">Designer,</span> Front End Developer wannabe & <span class="text-primary"><em>Lorem Ipsum</em></span></h6>
+                  <p class="text-muted">Dal 2010 ad oggi ho avuto modo di collaborare in diverse realtà lavorative con il ruolo di Graphic & Web Designer,
+                    mettendomi in gioco per poter migliorare la mia figura in ambito professionale e personale.
+                    Per elevare ulteriormente le mie competenze ho conseguito la certificazione in User Research,
+                    User Interface e Visual Design, introducendomi al mondo della UX/UI.</p>
+                    <p class="text-muted">La mia particolare predisposizione al team work e al team building favorisce il rapido inserimento nell'organico aziendale.
+                      Credo fortemente nel lavoro di squadra, nella comunicazione, nell'organizzazione, nella
+                      precisione e nella condivisione come strumenti assoluti di conoscenza e di crescita collettiva.</p>
+                      <div class="mt-4">
+                        <a href="docs/curriculum-vitae-musella.pdf" class="btn btn-primary rounded">Scarica il mio CV <i class="fas fa-download"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- FINE SEZIONE CHI SONO -->
+            <!-- INIZIO SEZIONE COSA FACCIO -->
+            <section class="section pt-100 pb-100" id="cosafaccio">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 text-center">
+                    <div class="section-title">
+                      <h4 class="title title-line text-uppercase">Cosa faccio</h4>
+                      <p class="text-muted mx-auto mb-0"><em>"Da un punto di vista pratico, <strong>risolvere i problemi</strong> è molto più importante che avere ragione. [cit. Glaser]"</em></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row"><!-- UX / UI INIZIO-->
+                  <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                      <div class="icon text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass fea icon-md"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                      </div>
+                      <div class="content mt-4">
+                        <h5 class="title">UX/UI Design</h5>
+                        <p class="text-muted mt-3 mb-0">Dalla definizione delle User Personas allo sviluppo di Wireframe ed allo UI Kit.</p>
+                      </div>
+                      <div class="big-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass fea icons"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                      </div>
+                    </div>
+                  </div><!-- UX / UI FINE-->
+                  <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                      <div class="icon text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-window-sidebar icon-md" viewBox="0 0 16 16">
+                          <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                          <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z"/>
+                        </svg>
+                      </div>
+                      <div class="content mt-4">
+                        <h5 class="title">Web Design</h5>
+                        <p class="text-muted mt-3 mb-0">Sviluppo di siti internet in HTML, CSS e Jquery o utilizzando CMS Wordpress.</p>
+                      </div>
+                      <div class="big-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-window-sidebar icons" viewBox="0 0 16 16">
+                          <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                          <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z"/>
+                        </svg>
+                      </div>
+                    </div>
+                  </div><!-- WEB DESIGN FINE-->
+                  <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                      <div class="icon text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-brush icon-md" viewBox="0 0 16 16">
+                          <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z"/></svg>
+                        </div>
+                        <div class="content mt-4">
+                          <h5 class="title">Graphic Design</h5>
+                          <p class="text-muted mt-3 mb-0">Dalla progettazione<br>alla elaborazione<br>del corredo grafico.</p>
+                        </div>
+                        <div class="big-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-brush icons" viewBox="0 0 16 16">
+                            <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z"/></svg>
+                          </div>
+                        </div>
+                      </div><!-- GRAPHIC DESIGN FINE-->
+                      <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                          <div class="icon text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-code-square icon-md" viewBox="0 0 16 16">
+                              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                              <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                            </svg>
+                          </div>
+                          <div class="content mt-4">
+                            <h5 class="title">Front-End Development</h5>
+                            <p class="text-muted mt-3 mb-0"><strong><em>Coming soon...</em></strong><br>stiamo studiando<br>per voi!</p>
+                          </div>
+                          <div class="big-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-code-square icons" viewBox="0 0 16 16">
+                              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                              <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                            </svg>
+                          </div>
+                        </div>
+                      </div><!-- FRONTEND DEVELOPMENT FINE-->
+                    </div>
+                  </div>
+                </section>
+                <!-- FINE SEZIONE COSA FACCIO -->
+                <!-- INIZIO SEZIONE SKILLS -->
+                <section class="section bg-light pt-100 pb-100" id="skills">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-12 text-center">
+                        <div class="section-title">
+                          <h4 class="title title-line text-uppercase">Le mie skills</h4>
+                          <p class="text-muted mx-auto para-desc mb-0"><em>"Practice makes perfection"</em></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-5 col-md-4 mar-b">
+                        <div class="about-hero">
+                          <img src="images/skill-img.jpg" class="img-fluid mx-auto d-block about-tween position-relative rounded" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-4 mt-sm-4 pt-sm-0">
+                        <div class="progress-box pt-2">
+                          <h4 class="title text-primary"></h4>
+                          <h6 class="font-weight-normal">HTML&CSS</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:90%;">
+                              <div class="progress-value d-block text-dark h6">90%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Jquery</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:80%;">
+                              <div class="progress-value d-block text-dark h6">80%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Wordpress</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:90%;">
+                              <div class="progress-value d-block text-dark h6">90%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Adobe Dreamweaver</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:80%;">
+                              <div class="progress-value d-block text-dark h6">80%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Adobe Photoshop</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:80%;">
+                              <div class="progress-value d-block text-dark h6">80%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Adobe Illustrator</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:80%;">
+                              <div class="progress-value d-block text-dark h6">80%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Adobe XD</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:70%;">
+                              <div class="progress-value d-block text-dark h6">70%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                        <div class="progress-box mt-4 pt-2">
+                          <h6 class="font-weight-normal">Figma</h6>
+                          <div class="progress">
+                            <div class="progress-bar position-relative bg-primary" style="width:70%;">
+                              <div class="progress-value d-block text-dark h6">70%</div>
+                            </div>
+                          </div>
+                        </div><!--end process box-->
+                      </div> <!-- end col -->
+                    </div><!--end row-->
+                  </div><!--end container fluid-->
+                </section>
+                <!-- FINE SEZIONE SKILLS -->
+                <!-- INIZIO SEZIONE HOBBY -->
+                <section class="section pt-100 pb-100" id="hobby">
+                  <div class="container" >
+                    <div class="row justify-content-center">
+                      <div class="col-12 text-center">
+                        <div class="section-title">
+                          <h4 class="title title-line text-uppercase">Hobby ed Interessi</h4>
+                          <p class="text-muted mx-auto para-desc mb-0"><em>Cosa faccio quando non scrivo codice?</em></p>
+                        </div>
+                      </div><!--end col-->
+                    </div><!--end row-->
+
+                    <div class="row">
+
+
+                      <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                          <div class="hobbies d-flex align-items-center">
+                            <div class="text-center rounded-pill me-4">
+                              <i class="icon icona-fa fea icon-md-sm fas fa-film"></i></div>
+                              <div class="content">
+                                <h6 class="title mb-0">Cinema</h6>
+                              </div>
+                            </div>
+                          </div>
+                        </div><!--end col-->
+
+                        <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                          <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                            <div class="hobbies d-flex align-items-center">
+                              <div class="text-center rounded-pill me-4">
+                                <i class="icon icona-fa fea icon-md-sm fas fa-music"></i></div>
+                                <div class="content">
+                                  <h6 class="title mb-0">Musica</h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div><!--end col-->
+
+                          <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                            <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                              <div class="hobbies d-flex align-items-center">
+                                <div class="text-center rounded-pill me-4">
+                                  <i class="icon icona-fa fea icon-md-sm fas fa-gamepad"></i>
+                                </div>
+                                <div class="content">
+                                  <h6 class="title mb-0">Videogames</h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div><!--end col-->
+
+                          <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                            <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                              <div class="hobbies d-flex align-items-center">
+                                <div class="text-center rounded-pill me-4">
+                                  <i class="icon icona-fa fea icon-md-sm fas fa-dumbbell"></i></div>
+                                  <div class="content">
+                                    <h6 class="title mb-0">Sport</h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                              <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                                <div class="hobbies d-flex align-items-center">
+                                  <div class="text-center rounded-pill me-4">
+                                    <i class="icon icona-fa fea icon-md-sm fas fa-book"></i></div>
+                                    <div class="content">
+                                      <h6 class="title mb-0">Leggere</h6>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div><!--end col-->
+
+                              <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                                <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                                  <div class="hobbies d-flex align-items-center">
+                                    <div class="text-center rounded-pill me-4">
+                                      <i class="icon icona-fa fea icon-md-sm fas fa-globe-europe"></i></div>
+                                      <div class="content">
+                                        <h6 class="title mb-0">Viaggiare</h6>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                                  <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                                    <div class="hobbies d-flex align-items-center">
+                                      <div class="text-center rounded-pill me-4">
+                                        <i class="icon icona-fa fea icon-md-sm fas fa-cogs"></i></div>
+                                        <div class="content">
+                                          <h6 class="title mb-0">Tecnologia</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div><!--end col-->
+
+                                  <div class="col-lg-3 col-md-4 col-6 mt-4 pt-2">
+                                    <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                                      <div class="hobbies d-flex align-items-center">
+                                        <div class="text-center rounded-pill me-4">
+                                          <i class="icon icona-fa fea icon-md-sm fas fa-mug-hot"></i></div>
+                                          <div class="content">
+                                            <h6 class="title mb-0">Caffè</h6>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div><!--end col-->
+
+                                </div>
+                              </div>
+                            </section>
+                            <!-- FINE SEZIONE HOBBY -->
+                            <!-- INIZIO SEZIONE CONTATTI -->
+                            <section class="section bg-light pt-100 pb-100" id="contatti">
+                              <div class="container">
+                                <div class="row justify-content-center">
+                                  <div class="col-12 text-center">
+                                    <div class="section-title">
+                                      <h4 class="title title-line text-uppercase">Contattami</h4>
+                                      <p class="text-muted mx-auto para-desc mb-0"><em>Hai in mente un progetto?</em></p>
+                                    </div>
+                                  </div><!--end col-->
+                                </div><!--end row-->
+
+                                <div class="row justify-content-center">
+                                  <div class="col-md-4 mt-4 pt-2">
+                                    <div class="contact-detail text-center">
+                                      <div class="icon">
+                                        <i class="fas fa-envelope fa-2x"></i>
+                                      </div>
+                                      <div class="content mt-4">
+                                        <h5 class="title text-uppercase">Email</h5>
+                                        <p class="text-muted">Scrivimi parlando del tuo progetto!<br>
+                                          <a href="mailto:giuseppe_musella@live.it" class="text-primary">giuseppe_musella@live.it</a></p>
+                                        </div>
+                                      </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-md-4 mt-4 pt-2">
+                                      <div class="contact-detail text-center">
+                                        <div class="icon">
+                                          <i class="fas fa-thumbs-up fa-2x"></i>
+                                        </div>
+                                        <div class="content mt-4">
+                                          <h5 class="title text-uppercase">Social</h5>
+                                          <p class="text-muted">Restiamo in contatto<br>
+                                            <a href="https://www.linkedin.com/in/gmusella-uxui/" target="_blank" class="video-play-icon text-primary">LinkedIn</a> | <a href="https://www.behance.net/giuseppemusella1" target="_blank" class="video-play-icon text-primary">Behance</a></p>
+                                          </div>
+                                        </div>
+                                      </div><!--end col-->
+                                    </div><!--end row-->
+                                  </div><!--end container-->
+                                </section>
+                                <!-- FINE SEZIONE CONTATTI -->
+                                <!-- INIZIO SEZIONE FOOTER -->
+                                <footer class="footer footer-bar bg-dark pt-4">
+                                  <div class="container text-foot text-center">
+                                    <p class="mb-0">.: Designed with <i class="fas fa-heart text-danger"></i> by Giuseppe Musella :.</p>
+                                  </div><!--end container-->
+                                </footer>
+                                <!-- FINE SEZIONE FOOTER -->
+                                <!-- SCRIPT -->
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+                                <script type="text/javascript" src="js/particles.js"></script>
+                                <script type="text/javascript" src="js/app.js"></script>
+                                <script type="text/javascript" src="js/smoothscroll.js"></script>
+                                <script type="text/javascript" src="js/typed.js"></script>
+                                <script>
+                                var typed = new Typed('#typed', {
+                                  stringsElement: '#typed-strings',
+                                  typeSpeed: 200,
+                                  loop: true,
+                                  strings: [
+                                    'Web Designer', 'UX/UI Designer', 'Front End Development Student',
+                                  ],
+                                });
+                                </script>
+                              </body>
+                              </html>
